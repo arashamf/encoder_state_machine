@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "gpio.h": "c",
+        "main.h": "c",
+        "tim.h": "c",
+        "compare": "c",
+        "oled_icons.h": "c",
+        "typedef.h": "c"
+    }
+}
