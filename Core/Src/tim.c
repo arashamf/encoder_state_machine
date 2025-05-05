@@ -92,6 +92,7 @@ void delay_ms (uint16_t delay)
 	LL_TIM_SetCounter(TIM_MS_DELAY, 0); 
 	LL_TIM_ClearFlag_UPDATE(TIM_MS_DELAY);
 	LL_TIM_EnableCounter(TIM_MS_DELAY); 
+  flag_end_delay = 1;
 }
 
 //---------------------------------------------------------------------------------------//

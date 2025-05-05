@@ -100,6 +100,8 @@ void Error_Handler(void);
 /* USER CODE BEGIN Private defines */
 #define ON 												1
 #define OFF 											0
+
+extern uint8_t flag_end_delay;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

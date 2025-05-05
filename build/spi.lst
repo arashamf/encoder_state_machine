@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccdgS7mN.s 			page 1
+ARM GAS  /tmp/ccMUMWfP.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   27              		.loc 1 29 1 view -0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 72
-ARM GAS  /tmp/ccdgS7mN.s 			page 2
+ARM GAS  /tmp/ccMUMWfP.s 			page 2
 
 
   30              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   15:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****         (++) AHB & APB peripherals, 1 dummy read is necessary
   16:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** 
   17:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****     [..]
-ARM GAS  /tmp/ccdgS7mN.s 			page 3
+ARM GAS  /tmp/ccMUMWfP.s 			page 3
 
 
   18:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****       Workarounds:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   72:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** /** @defgroup BUS_LL_EC_AHB1_GRP1_PERIPH  AHB1 GRP1 PERIPH
   73:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @{
   74:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   */
-ARM GAS  /tmp/ccdgS7mN.s 			page 4
+ARM GAS  /tmp/ccMUMWfP.s 			page 4
 
 
   75:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_AHB1_GRP1_PERIPH_ALL            (uint32_t)0xFFFFFFFFU
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  129:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(TIM12)
  130:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_APB1_GRP1_PERIPH_TIM12          RCC_APB1ENR_TIM12EN
  131:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /*TIM12*/
-ARM GAS  /tmp/ccdgS7mN.s 			page 5
+ARM GAS  /tmp/ccMUMWfP.s 			page 5
 
 
  132:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(TIM13)
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  186:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(GPIOE)
  187:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #define LL_APB2_GRP1_PERIPH_GPIOE          RCC_APB2ENR_IOPEEN
  188:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #endif /*GPIOE*/
-ARM GAS  /tmp/ccdgS7mN.s 			page 6
+ARM GAS  /tmp/ccMUMWfP.s 			page 6
 
 
  189:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** #if defined(GPIOF)
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  243:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       ETHMACEN      LL_AHB1_GRP1_EnableClock\n
  244:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       ETHMACRXEN    LL_AHB1_GRP1_EnableClock\n
  245:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       ETHMACTXEN    LL_AHB1_GRP1_EnableClock\n
-ARM GAS  /tmp/ccdgS7mN.s 			page 7
+ARM GAS  /tmp/ccMUMWfP.s 			page 7
 
 
  246:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         AHBENR       FLITFEN       LL_AHB1_GRP1_EnableClock\n
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  300:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_SRAM
  301:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *
  302:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         (*) value not defined in all devices.
-ARM GAS  /tmp/ccdgS7mN.s 			page 8
+ARM GAS  /tmp/ccMUMWfP.s 			page 8
 
 
  303:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @retval State of Periphs (1 or 0).
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  357:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** __STATIC_INLINE void LL_AHB1_GRP1_ForceReset(uint32_t Periphs)
  358:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** {
  359:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   SET_BIT(RCC->AHBRSTR, Periphs);
-ARM GAS  /tmp/ccdgS7mN.s 			page 9
+ARM GAS  /tmp/ccMUMWfP.s 			page 9
 
 
  360:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** }
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  414:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      WWDGEN        LL_APB1_GRP1_EnableClock
  415:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
  416:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_BKP
-ARM GAS  /tmp/ccdgS7mN.s 			page 10
+ARM GAS  /tmp/ccMUMWfP.s 			page 10
 
 
  417:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_CAN1 (*)
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  471:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM4EN        LL_APB1_GRP1_IsEnabledClock\n
  472:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM5EN        LL_APB1_GRP1_IsEnabledClock\n
  473:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM6EN        LL_APB1_GRP1_IsEnabledClock\n
-ARM GAS  /tmp/ccdgS7mN.s 			page 11
+ARM GAS  /tmp/ccMUMWfP.s 			page 11
 
 
  474:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM7EN        LL_APB1_GRP1_IsEnabledClock\n
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  528:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM12EN       LL_APB1_GRP1_DisableClock\n
  529:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM13EN       LL_APB1_GRP1_DisableClock\n
  530:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM14EN       LL_APB1_GRP1_DisableClock\n
-ARM GAS  /tmp/ccdgS7mN.s 			page 12
+ARM GAS  /tmp/ccMUMWfP.s 			page 12
 
 
  531:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1ENR      TIM2EN        LL_APB1_GRP1_DisableClock\n
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  585:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     I2C1RST       LL_APB1_GRP1_ForceReset\n
  586:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     I2C2RST       LL_APB1_GRP1_ForceReset\n
  587:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     PWRRST        LL_APB1_GRP1_ForceReset\n
-ARM GAS  /tmp/ccdgS7mN.s 			page 13
+ARM GAS  /tmp/ccMUMWfP.s 			page 13
 
 
  588:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     SPI2RST       LL_APB1_GRP1_ForceReset\n
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  642:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @brief  Release APB1 peripherals reset.
  643:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @rmtoll APB1RSTR     BKPRST        LL_APB1_GRP1_ReleaseReset\n
  644:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     CAN1RST       LL_APB1_GRP1_ReleaseReset\n
-ARM GAS  /tmp/ccdgS7mN.s 			page 14
+ARM GAS  /tmp/ccMUMWfP.s 			page 14
 
 
  645:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         APB1RSTR     CAN2RST       LL_APB1_GRP1_ReleaseReset\n
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  699:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** __STATIC_INLINE void LL_APB1_GRP1_ReleaseReset(uint32_t Periphs)
  700:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** {
  701:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   CLEAR_BIT(RCC->APB1RSTR, Periphs);
-ARM GAS  /tmp/ccdgS7mN.s 			page 15
+ARM GAS  /tmp/ccMUMWfP.s 			page 15
 
 
  702:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h **** }
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  756:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_USART1
  757:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *
  758:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   *         (*) value not defined in all devices.
-ARM GAS  /tmp/ccdgS7mN.s 			page 16
+ARM GAS  /tmp/ccMUMWfP.s 			page 16
 
 
  759:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h ****   * @retval None
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   96 003e 019B     		ldr	r3, [sp, #4]
   97              	.LVL3:
   98              		.loc 2 767 3 is_stmt 0 view .LVU22
-ARM GAS  /tmp/ccdgS7mN.s 			page 17
+ARM GAS  /tmp/ccMUMWfP.s 			page 17
 
 
   99              	.LBE11:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   61:Core/Src/spi.c ****   SPI_InitStruct.NSS = LL_SPI_NSS_SOFT;
  135              		.loc 1 61 3 is_stmt 1 view .LVU41
  136              		.loc 1 61 22 is_stmt 0 view .LVU42
-ARM GAS  /tmp/ccdgS7mN.s 			page 18
+ARM GAS  /tmp/ccMUMWfP.s 			page 18
 
 
  137 0064 4FF40073 		mov	r3, #512
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   21:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** #define STM32F1xx_LL_SPI_H
   22:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** 
   23:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** #ifdef __cplusplus
-ARM GAS  /tmp/ccdgS7mN.s 			page 19
+ARM GAS  /tmp/ccMUMWfP.s 			page 19
 
 
   24:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** extern "C" {
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
   78:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****                                          This feature can be modified afterwards using unitary func
   79:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** 
   80:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   uint32_t NSS;                     /*!< Specifies whether the NSS signal is managed by hardware (N
-ARM GAS  /tmp/ccdgS7mN.s 			page 20
+ARM GAS  /tmp/ccMUMWfP.s 			page 20
 
 
   81:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****                                          This parameter can be a value of @ref SPI_LL_EC_NSS_MODE.
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  135:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   * @{
  136:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   */
  137:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** #define LL_SPI_CR2_RXNEIE                  SPI_CR2_RXNEIE            /*!< Rx buffer not empty inter
-ARM GAS  /tmp/ccdgS7mN.s 			page 21
+ARM GAS  /tmp/ccMUMWfP.s 			page 21
 
 
  138:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** #define LL_SPI_CR2_TXEIE                   SPI_CR2_TXEIE             /*!< Tx buffer empty interrupt
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  192:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** /**
  193:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   * @}
  194:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   */
-ARM GAS  /tmp/ccdgS7mN.s 			page 22
+ARM GAS  /tmp/ccMUMWfP.s 			page 22
 
 
  195:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  249:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** 
  250:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h **** /**
  251:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   * @brief  Write a value in SPI register
-ARM GAS  /tmp/ccdgS7mN.s 			page 23
+ARM GAS  /tmp/ccMUMWfP.s 			page 23
 
 
  252:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h ****   * @param  __INSTANCE__ SPI Instance
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  173              		.loc 1 73 1 view .LVU56
  174 0088 12B0     		add	sp, sp, #72
  175              	.LCFI2:
-ARM GAS  /tmp/ccdgS7mN.s 			page 24
+ARM GAS  /tmp/ccMUMWfP.s 			page 24
 
 
  176              		.cfi_def_cfa_offset 8
@@ -1401,14 +1401,14 @@ ARM GAS  /tmp/ccdgS7mN.s 			page 1
  194              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h"
  195              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h"
  196              		.file 10 "<built-in>"
-ARM GAS  /tmp/ccdgS7mN.s 			page 25
+ARM GAS  /tmp/ccMUMWfP.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 spi.c
-     /tmp/ccdgS7mN.s:18     .text.MX_SPI1_Init:0000000000000000 $t
-     /tmp/ccdgS7mN.s:24     .text.MX_SPI1_Init:0000000000000000 MX_SPI1_Init
-     /tmp/ccdgS7mN.s:182    .text.MX_SPI1_Init:000000000000008c $d
+     /tmp/ccMUMWfP.s:18     .text.MX_SPI1_Init:0000000000000000 $t
+     /tmp/ccMUMWfP.s:24     .text.MX_SPI1_Init:0000000000000000 MX_SPI1_Init
+     /tmp/ccMUMWfP.s:182    .text.MX_SPI1_Init:000000000000008c $d
 
 UNDEFINED SYMBOLS
 memset

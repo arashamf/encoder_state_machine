@@ -52,6 +52,8 @@ char lcd_buf[25];
 int32_t enc_count = 0;
 uint8_t flag_dir = 0, flag_rev = 0;
 uint8_t state_machine = SM_WAIT;
+uint8_t flag_end_delay = 0;
+uint32_t ms_delay = 3;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -123,83 +125,143 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    for (uint16_t count = 0; count < 2000; count++)
+    for (uint16_t count = 0; count < 1000; count++)
     { 
-      delay_us (500); //delay 5 ms
-      val_new = read_gray_code_from_encoder();
-      switch (state_machine)
-        case SM_WAIT:
-          if (val_new != val_old)
-	        { 
-            state_machine = SM_FIRST;
-            if (val_new == 0x01)
+      //if (flag_end_delay == 0) 
+      {
+        //delay_us (10000); //delay 
+        val_new = read_gray_code_from_encoder(); //чтение данных энкодера
+
+        switch (state_machine) //проверка состояния конечного автомата
+        {
+          case SM_WAIT: //стадия ожидания поворота энкодера
+            if (flag_end_delay == 0) 
             {
-              flag_dir = 1;
-            }
-            else
-            {
-              if (val_new == 0x02)
-              {
-                flag_rev = 1;
+              if (val_new != val_old)
+	            { 
+                if (val_new == 0x01)
+                {
+                  state_machine = SM_FIRST;
+                  flag_rev = 1; //флаг реверсного поворота энкодера
+                }
+                else
+                {
+                  if (val_new == 0x02)
+                  {
+                    state_machine = SM_FIRST;
+                    flag_dir = 1; //флаг прямого поворота энкодера
+                  }
+                  else
+                  {
+                    flag_rev = flag_dir = 0; //сброс флагов поворота энкодера
+                    state_machine = SM_WAIT;
+                  }
+                }
+                val_old = val_new; 
+                delay_ms (ms_delay);
               }
+            }
+            break;
+
+         case SM_FIRST: //стадия средней части импульса энкодера
+            if (flag_end_delay == 0)
+            {
+              if (val_new == val_old)
+	            { delay_ms (ms_delay);}       //ожидание дальнейшего изменения
+              else
+              { 
+                state_machine = SM_NULL;
+                TOOGLE_LED_RED(); 
+                val_old = val_new;
+                delay_ms (ms_delay);
+              }
+            }
+            break;        
+
+          case SM_NULL: //стадия последней части импульса энкодера
+            if (flag_end_delay == 0)
+            {
+              if (val_new == val_old)
+	            { delay_ms (ms_delay);}
+              else
+              { 
+                if (val_new == 0x02)
+                {
+                  if (flag_rev == 1)
+                  { 
+                    state_machine = SM_LAST;
+                    val_old = val_new;
+                    delay_ms (ms_delay);
+                  }              
+                }
+                else
+                {
+                  if (val_new == 0x01)
+                  {
+                    if (flag_dir == 1)
+                    {  
+                      state_machine = SM_LAST;
+                      val_old = val_new;
+                      delay_ms (ms_delay);
+                    }
+                  }
+                  else
+                  {
+                    flag_rev = flag_dir = 0;
+                    val_old = val_new;
+                    state_machine = SM_WAIT;
+                  }
+                }
+                TOOGLE_LED_RED(); 
+              }
+            }
+            break;
+
+          case  SM_LAST: 
+            if (flag_end_delay == 0)
+            {
+              if (val_new == val_old)
+	            { delay_ms (ms_delay);  }
               else
               {
+                if (flag_rev == 1)
+                {
+                  enc_count--;  
+                  OLED_Clear(NONE_INVERTED);
+                  snprintf(lcd_buf, 25,"-cnt=%ld, %x, %x, %x", enc_count, val_new, val_old, val_old | val_new);
+                  OLED_DrawStr(lcd_buf, 15, 25);
+                  OLED_UpdateScreen();
+                  flag_rev = flag_dir = 0; 
+                }
+                else
+                {
+                  if (flag_dir == 1)
+                  {
+                    enc_count++;  
+                    OLED_Clear(NONE_INVERTED);
+                    snprintf(lcd_buf, 25,"+cnt=%ld, %x, %x, %x", enc_count, val_new, val_old, val_old | val_new);
+                    OLED_DrawStr(lcd_buf, 15, 25);
+                    OLED_UpdateScreen(); 
+                    flag_rev = flag_dir = 0;  
+                  } 
+                } 
+                val_old = val_new;
                 state_machine = SM_WAIT;
-              }
-            }
-            val_old = val_new;
-            delay_ms (20);
-          }
-          break;
+                TOOGLE_LED_RED(); 
+              }            
+            } 
+            break;  
 
-        case SM_FIRST: 
-        {
-          if (val_new != val_old)
-	        { 
-            delay_ms (20);
-          }
-          else
-          {
-            delay_ms (10);
-          }
-          break;        
+          default:
+            break;         
         }
-        case 0x02: 
-        {
-          flag_rev = 1;
-          break;
-        }
-        case 0x0D: 
-        {
-          if (flag_dir == 1)
-          {
-            enc_count--;
-            OLED_Clear(NONE_INVERTED);
-            snprintf(lcd_buf, 25,"-cnt=%ld, %x, %x, %x", enc_count, val_new, val_old, val_old | val_new);
-            OLED_DrawStr(lcd_buf, 15, 25);
-            OLED_UpdateScreen();
-            flag_dir = 0; 
-          }
-
-          if (flag_rev == 1)
-          {
-            enc_count++;
-            OLED_Clear(NONE_INVERTED);
-            snprintf(lcd_buf, 25,"+cnt=%ld, %x, %x, %x", enc_count, val_new, val_old, val_old | val_new);
-            OLED_DrawStr(lcd_buf, 15, 25);
-            OLED_UpdateScreen(); 
-            flag_rev = 0;    
-            break; 
-          }   
-        }
-
-        default:
-          break;
-          
       }
-      val_old = val_new<<2; 
-      if (count == 1999)
-      { TOOGLE_LED_RED(); }
+
+     /* if (count == 999)
+      { 
+        TOOGLE_LED_RED(); 
+      }*/
+    
     }
 
     /* USER CODE END WHILE */
@@ -251,9 +313,10 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
  void TIM_DELAY_MS_Callback (void)
  {
-    state_machine++
-    if (state_machine > SM_SECOND)
-      state_machine = SM_WAIT;
+    state_machine++;
+    flag_end_delay = 0;
+    if (state_machine > SM_LAST)
+    { state_machine = SM_WAIT;  }
  }
 /* USER CODE END 4 */
 
