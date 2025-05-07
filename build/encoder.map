@@ -13,7 +13,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
                               build/main.o (snprintf)
 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
-                              build/OLED.o (sprintf)
+                              build/main.o (sprintf)
 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strlen.o)
                               build/OLED.o (strlen)
 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
@@ -113,34 +113,10 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 build/stm32f1xx_ll_rcc.o
  .text.LL_RCC_DeInit
                 0x0000000000000000       0x68 build/stm32f1xx_ll_rcc.o
- .text.RCC_GetHCLKClockFreq
-                0x0000000000000000       0x18 build/stm32f1xx_ll_rcc.o
- .text.RCC_GetPCLK1ClockFreq
-                0x0000000000000000       0x18 build/stm32f1xx_ll_rcc.o
- .text.RCC_GetPCLK2ClockFreq
-                0x0000000000000000       0x18 build/stm32f1xx_ll_rcc.o
- .text.RCC_PLL_GetFreqDomain_SYS
-                0x0000000000000000       0x3c build/stm32f1xx_ll_rcc.o
  .text.LL_RCC_GetUSBClockFreq
                 0x0000000000000000       0x3c build/stm32f1xx_ll_rcc.o
- .text.RCC_GetSystemClockFreq
-                0x0000000000000000       0x20 build/stm32f1xx_ll_rcc.o
- .text.LL_RCC_GetSystemClocksFreq
-                0x0000000000000000       0x20 build/stm32f1xx_ll_rcc.o
  .text.LL_RCC_GetADCClockFreq
                 0x0000000000000000       0x30 build/stm32f1xx_ll_rcc.o
- .debug_info    0x0000000000000000      0x7da build/stm32f1xx_ll_rcc.o
- .debug_abbrev  0x0000000000000000      0x2d3 build/stm32f1xx_ll_rcc.o
- .debug_loc     0x0000000000000000      0x353 build/stm32f1xx_ll_rcc.o
- .debug_aranges
-                0x0000000000000000       0x60 build/stm32f1xx_ll_rcc.o
- .debug_ranges  0x0000000000000000       0x50 build/stm32f1xx_ll_rcc.o
- .debug_line    0x0000000000000000      0x599 build/stm32f1xx_ll_rcc.o
- .debug_str     0x0000000000000000      0x515 build/stm32f1xx_ll_rcc.o
- .comment       0x0000000000000000       0x4a build/stm32f1xx_ll_rcc.o
- .debug_frame   0x0000000000000000       0xc4 build/stm32f1xx_ll_rcc.o
- .ARM.attributes
-                0x0000000000000000       0x2d build/stm32f1xx_ll_rcc.o
  .text          0x0000000000000000        0x0 build/stm32f1xx_ll_utils.o
  .data          0x0000000000000000        0x0 build/stm32f1xx_ll_utils.o
  .bss           0x0000000000000000        0x0 build/stm32f1xx_ll_utils.o
@@ -181,32 +157,11 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x50 build/stm32f1xx_ll_exti.o
  .ARM.attributes
                 0x0000000000000000       0x2d build/stm32f1xx_ll_exti.o
- .text          0x0000000000000000        0x0 build/stm32f1xx_ll_pwr.o
- .data          0x0000000000000000        0x0 build/stm32f1xx_ll_pwr.o
- .bss           0x0000000000000000        0x0 build/stm32f1xx_ll_pwr.o
- .text.LL_PWR_DeInit
-                0x0000000000000000       0x1c build/stm32f1xx_ll_pwr.o
- .debug_info    0x0000000000000000      0x20a build/stm32f1xx_ll_pwr.o
- .debug_abbrev  0x0000000000000000      0x129 build/stm32f1xx_ll_pwr.o
- .debug_loc     0x0000000000000000       0x30 build/stm32f1xx_ll_pwr.o
- .debug_aranges
-                0x0000000000000000       0x20 build/stm32f1xx_ll_pwr.o
- .debug_ranges  0x0000000000000000       0x10 build/stm32f1xx_ll_pwr.o
- .debug_line    0x0000000000000000      0x1f2 build/stm32f1xx_ll_pwr.o
- .debug_str     0x0000000000000000      0x21e build/stm32f1xx_ll_pwr.o
- .comment       0x0000000000000000       0x4a build/stm32f1xx_ll_pwr.o
- .debug_frame   0x0000000000000000       0x20 build/stm32f1xx_ll_pwr.o
- .ARM.attributes
-                0x0000000000000000       0x2d build/stm32f1xx_ll_pwr.o
  .text          0x0000000000000000        0x0 build/system_stm32f1xx.o
  .data          0x0000000000000000        0x0 build/system_stm32f1xx.o
  .bss           0x0000000000000000        0x0 build/system_stm32f1xx.o
  .text.SystemCoreClockUpdate
                 0x0000000000000000       0x94 build/system_stm32f1xx.o
- .rodata.AHBPrescTable
-                0x0000000000000000       0x10 build/system_stm32f1xx.o
- .rodata.APBPrescTable
-                0x0000000000000000        0x8 build/system_stm32f1xx.o
  .text          0x0000000000000000        0x0 build/sysmem.o
  .data          0x0000000000000000        0x0 build/sysmem.o
  .bss           0x0000000000000000        0x0 build/sysmem.o
@@ -366,6 +321,37 @@ Discarded input sections
                 0x0000000000000000       0x12 build/stm32f1xx_ll_tim.o
  .text.LL_TIM_BDTR_Init
                 0x0000000000000000       0x34 build/stm32f1xx_ll_tim.o
+ .text          0x0000000000000000        0x0 build/usart.o
+ .data          0x0000000000000000        0x0 build/usart.o
+ .bss           0x0000000000000000        0x0 build/usart.o
+ .text          0x0000000000000000        0x0 build/stm32f1xx_ll_pwr.o
+ .data          0x0000000000000000        0x0 build/stm32f1xx_ll_pwr.o
+ .bss           0x0000000000000000        0x0 build/stm32f1xx_ll_pwr.o
+ .text.LL_PWR_DeInit
+                0x0000000000000000       0x1c build/stm32f1xx_ll_pwr.o
+ .debug_info    0x0000000000000000      0x20a build/stm32f1xx_ll_pwr.o
+ .debug_abbrev  0x0000000000000000      0x129 build/stm32f1xx_ll_pwr.o
+ .debug_loc     0x0000000000000000       0x30 build/stm32f1xx_ll_pwr.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/stm32f1xx_ll_pwr.o
+ .debug_ranges  0x0000000000000000       0x10 build/stm32f1xx_ll_pwr.o
+ .debug_line    0x0000000000000000      0x1f2 build/stm32f1xx_ll_pwr.o
+ .debug_str     0x0000000000000000      0x21e build/stm32f1xx_ll_pwr.o
+ .comment       0x0000000000000000       0x4a build/stm32f1xx_ll_pwr.o
+ .debug_frame   0x0000000000000000       0x20 build/stm32f1xx_ll_pwr.o
+ .ARM.attributes
+                0x0000000000000000       0x2d build/stm32f1xx_ll_pwr.o
+ .text          0x0000000000000000        0x0 build/stm32f1xx_ll_usart.o
+ .data          0x0000000000000000        0x0 build/stm32f1xx_ll_usart.o
+ .bss           0x0000000000000000        0x0 build/stm32f1xx_ll_usart.o
+ .text.LL_USART_DeInit
+                0x0000000000000000       0x6c build/stm32f1xx_ll_usart.o
+ .text.LL_USART_StructInit
+                0x0000000000000000       0x16 build/stm32f1xx_ll_usart.o
+ .text.LL_USART_ClockInit
+                0x0000000000000000       0x3c build/stm32f1xx_ll_usart.o
+ .text.LL_USART_ClockStructInit
+                0x0000000000000000        0xc build/stm32f1xx_ll_usart.o
  .text          0x0000000000000000       0x14 build/startup_stm32f103xb.o
  .data          0x0000000000000000        0x0 build/startup_stm32f103xb.o
  .bss           0x0000000000000000        0x0 build/startup_stm32f103xb.o
@@ -400,10 +386,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
  .text._sprintf_r
                 0x0000000000000000       0x38 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .text.sprintf  0x0000000000000000       0x40 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000000000       0x6c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
- .ARM.attributes
-                0x0000000000000000       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
  .data          0x0000000000000000        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strlen.o)
  .bss           0x0000000000000000        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strlen.o)
  .text          0x0000000000000000        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
@@ -516,7 +498,6 @@ LOAD build/stm32f1xx_ll_dma.o
 LOAD build/stm32f1xx_ll_rcc.o
 LOAD build/stm32f1xx_ll_utils.o
 LOAD build/stm32f1xx_ll_exti.o
-LOAD build/stm32f1xx_ll_pwr.o
 LOAD build/system_stm32f1xx.o
 LOAD build/sysmem.o
 LOAD build/syscalls.o
@@ -525,6 +506,9 @@ LOAD build/OLED_Fonts.o
 LOAD build/OLED_Icons.o
 LOAD build/tim.o
 LOAD build/stm32f1xx_ll_tim.o
+LOAD build/usart.o
+LOAD build/stm32f1xx_ll_pwr.o
+LOAD build/stm32f1xx_ll_usart.o
 LOAD build/startup_stm32f103xb.o
 LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
 LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
@@ -550,7 +534,7 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0x1768
+.text           0x000000000800010c     0x1b54
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x40 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -560,302 +544,338 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
  .text.SystemClock_Config
                 0x000000000800015c       0xa4 build/main.o
                 0x000000000800015c                SystemClock_Config
- .text.main     0x0000000008000200      0x360 build/main.o
+ .text.main     0x0000000008000200      0x4bc build/main.o
                 0x0000000008000200                main
  .text.TIM_DELAY_MS_Callback
-                0x0000000008000560       0x24 build/main.o
-                0x0000000008000560                TIM_DELAY_MS_Callback
+                0x00000000080006bc        0xc build/main.o
+                0x00000000080006bc                TIM_DELAY_MS_Callback
  .text.MX_GPIO_Init
-                0x0000000008000584       0xcc build/gpio.o
-                0x0000000008000584                MX_GPIO_Init
+                0x00000000080006c8       0xcc build/gpio.o
+                0x00000000080006c8                MX_GPIO_Init
  .text.read_gray_code_from_encoder
-                0x0000000008000650       0x64 build/gpio.o
-                0x0000000008000650                read_gray_code_from_encoder
+                0x0000000008000794       0x64 build/gpio.o
+                0x0000000008000794                read_gray_code_from_encoder
  .text.MX_SPI1_Init
-                0x00000000080006b4       0x98 build/spi.o
-                0x00000000080006b4                MX_SPI1_Init
+                0x00000000080007f8       0x98 build/spi.o
+                0x00000000080007f8                MX_SPI1_Init
  .text.NMI_Handler
-                0x000000000800074c        0x2 build/stm32f1xx_it.o
-                0x000000000800074c                NMI_Handler
+                0x0000000008000890        0x2 build/stm32f1xx_it.o
+                0x0000000008000890                NMI_Handler
  .text.HardFault_Handler
-                0x000000000800074e        0x2 build/stm32f1xx_it.o
-                0x000000000800074e                HardFault_Handler
+                0x0000000008000892        0x2 build/stm32f1xx_it.o
+                0x0000000008000892                HardFault_Handler
  .text.MemManage_Handler
-                0x0000000008000750        0x2 build/stm32f1xx_it.o
-                0x0000000008000750                MemManage_Handler
+                0x0000000008000894        0x2 build/stm32f1xx_it.o
+                0x0000000008000894                MemManage_Handler
  .text.BusFault_Handler
-                0x0000000008000752        0x2 build/stm32f1xx_it.o
-                0x0000000008000752                BusFault_Handler
+                0x0000000008000896        0x2 build/stm32f1xx_it.o
+                0x0000000008000896                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000000008000754        0x2 build/stm32f1xx_it.o
-                0x0000000008000754                UsageFault_Handler
+                0x0000000008000898        0x2 build/stm32f1xx_it.o
+                0x0000000008000898                UsageFault_Handler
  .text.SVC_Handler
-                0x0000000008000756        0x2 build/stm32f1xx_it.o
-                0x0000000008000756                SVC_Handler
+                0x000000000800089a        0x2 build/stm32f1xx_it.o
+                0x000000000800089a                SVC_Handler
  .text.DebugMon_Handler
-                0x0000000008000758        0x2 build/stm32f1xx_it.o
-                0x0000000008000758                DebugMon_Handler
+                0x000000000800089c        0x2 build/stm32f1xx_it.o
+                0x000000000800089c                DebugMon_Handler
  .text.PendSV_Handler
-                0x000000000800075a        0x2 build/stm32f1xx_it.o
-                0x000000000800075a                PendSV_Handler
+                0x000000000800089e        0x2 build/stm32f1xx_it.o
+                0x000000000800089e                PendSV_Handler
  .text.SysTick_Handler
-                0x000000000800075c        0x2 build/stm32f1xx_it.o
-                0x000000000800075c                SysTick_Handler
+                0x00000000080008a0        0x2 build/stm32f1xx_it.o
+                0x00000000080008a0                SysTick_Handler
  .text.LL_GPIO_Init
-                0x000000000800075e      0x116 build/stm32f1xx_ll_gpio.o
-                0x000000000800075e                LL_GPIO_Init
+                0x00000000080008a2      0x116 build/stm32f1xx_ll_gpio.o
+                0x00000000080008a2                LL_GPIO_Init
  .text.LL_SPI_Init
-                0x0000000008000874       0x60 build/stm32f1xx_ll_spi.o
-                0x0000000008000874                LL_SPI_Init
+                0x00000000080009b8       0x60 build/stm32f1xx_ll_spi.o
+                0x00000000080009b8                LL_SPI_Init
+ .text.RCC_GetHCLKClockFreq
+                0x0000000008000a18       0x18 build/stm32f1xx_ll_rcc.o
+                0x0000000008000a18                RCC_GetHCLKClockFreq
+ .text.RCC_GetPCLK1ClockFreq
+                0x0000000008000a30       0x18 build/stm32f1xx_ll_rcc.o
+                0x0000000008000a30                RCC_GetPCLK1ClockFreq
+ .text.RCC_GetPCLK2ClockFreq
+                0x0000000008000a48       0x18 build/stm32f1xx_ll_rcc.o
+                0x0000000008000a48                RCC_GetPCLK2ClockFreq
+ .text.RCC_PLL_GetFreqDomain_SYS
+                0x0000000008000a60       0x3c build/stm32f1xx_ll_rcc.o
+                0x0000000008000a60                RCC_PLL_GetFreqDomain_SYS
+ .text.RCC_GetSystemClockFreq
+                0x0000000008000a9c       0x20 build/stm32f1xx_ll_rcc.o
+                0x0000000008000a9c                RCC_GetSystemClockFreq
+ .text.LL_RCC_GetSystemClocksFreq
+                0x0000000008000abc       0x20 build/stm32f1xx_ll_rcc.o
+                0x0000000008000abc                LL_RCC_GetSystemClocksFreq
  .text.LL_Init1msTick
-                0x00000000080008d4       0x20 build/stm32f1xx_ll_utils.o
-                0x00000000080008d4                LL_Init1msTick
+                0x0000000008000adc       0x20 build/stm32f1xx_ll_utils.o
+                0x0000000008000adc                LL_Init1msTick
  .text.LL_SetSystemCoreClock
-                0x00000000080008f4        0xc build/stm32f1xx_ll_utils.o
-                0x00000000080008f4                LL_SetSystemCoreClock
+                0x0000000008000afc        0xc build/stm32f1xx_ll_utils.o
+                0x0000000008000afc                LL_SetSystemCoreClock
  .text.SystemInit
-                0x0000000008000900        0x2 build/system_stm32f1xx.o
-                0x0000000008000900                SystemInit
- *fill*         0x0000000008000902        0x2 
- .text._sbrk    0x0000000008000904       0x48 build/sysmem.o
-                0x0000000008000904                _sbrk
+                0x0000000008000b08        0x2 build/system_stm32f1xx.o
+                0x0000000008000b08                SystemInit
+ *fill*         0x0000000008000b0a        0x2 
+ .text._sbrk    0x0000000008000b0c       0x48 build/sysmem.o
+                0x0000000008000b0c                _sbrk
  .text.OLED_ClearBuffer
-                0x000000000800094c       0x18 build/OLED.o
-                0x000000000800094c                OLED_ClearBuffer
+                0x0000000008000b54       0x18 build/OLED.o
+                0x0000000008000b54                OLED_ClearBuffer
  .text.OLED_SendCommand
-                0x0000000008000964       0x2c build/OLED.o
-                0x0000000008000964                OLED_SendCommand
+                0x0000000008000b6c       0x2c build/OLED.o
+                0x0000000008000b6c                OLED_SendCommand
  .text.OLED_SendData
-                0x0000000008000990       0x2c build/OLED.o
-                0x0000000008000990                OLED_SendData
+                0x0000000008000b98       0x2c build/OLED.o
+                0x0000000008000b98                OLED_SendData
  .text.OLED_Clear
-                0x00000000080009bc       0x14 build/OLED.o
-                0x00000000080009bc                OLED_Clear
+                0x0000000008000bc4       0x14 build/OLED.o
+                0x0000000008000bc4                OLED_Clear
  .text.OLED_Invert
-                0x00000000080009d0       0x14 build/OLED.o
-                0x00000000080009d0                OLED_Invert
+                0x0000000008000bd8       0x14 build/OLED.o
+                0x0000000008000bd8                OLED_Invert
  .text.OLED_GetWidthStr
-                0x00000000080009e4       0x3c build/OLED.o
-                0x00000000080009e4                OLED_GetWidthStr
+                0x0000000008000bec       0x3c build/OLED.o
+                0x0000000008000bec                OLED_GetWidthStr
  .text.OLED_DrawPixelStatus
-                0x0000000008000a20       0x44 build/OLED.o
-                0x0000000008000a20                OLED_DrawPixelStatus
+                0x0000000008000c28       0x44 build/OLED.o
+                0x0000000008000c28                OLED_DrawPixelStatus
  .text.OLED_DrawChar
-                0x0000000008000a64       0x90 build/OLED.o
-                0x0000000008000a64                OLED_DrawChar
+                0x0000000008000c6c       0x90 build/OLED.o
+                0x0000000008000c6c                OLED_DrawChar
  .text.OLED_DrawStr
-                0x0000000008000af4       0x90 build/OLED.o
-                0x0000000008000af4                OLED_DrawStr
+                0x0000000008000cfc       0x90 build/OLED.o
+                0x0000000008000cfc                OLED_DrawStr
  .text.OLED_UpdateScreen
-                0x0000000008000b84       0x40 build/OLED.o
-                0x0000000008000b84                OLED_UpdateScreen
+                0x0000000008000d8c       0x40 build/OLED.o
+                0x0000000008000d8c                OLED_UpdateScreen
  .text.OLED_init
-                0x0000000008000bc4       0xc4 build/OLED.o
-                0x0000000008000bc4                OLED_init
- .text.FontSet  0x0000000008000c88       0x20 build/OLED_Fonts.o
-                0x0000000008000c88                FontSet
+                0x0000000008000dcc       0xc4 build/OLED.o
+                0x0000000008000dcc                OLED_init
+ .text.FontSet  0x0000000008000e90       0x20 build/OLED_Fonts.o
+                0x0000000008000e90                FontSet
  .text.MX_TIM4_Init
-                0x0000000008000ca8       0x6c build/tim.o
-                0x0000000008000ca8                MX_TIM4_Init
+                0x0000000008000eb0       0x6c build/tim.o
+                0x0000000008000eb0                MX_TIM4_Init
  .text.TIM_MS_DELAY_Init
-                0x0000000008000d14       0x8c build/tim.o
-                0x0000000008000d14                TIM_MS_DELAY_Init
+                0x0000000008000f1c       0x8c build/tim.o
+                0x0000000008000f1c                TIM_MS_DELAY_Init
  .text.delay_ms
-                0x0000000008000da0       0x28 build/tim.o
-                0x0000000008000da0                delay_ms
+                0x0000000008000fa8       0x28 build/tim.o
+                0x0000000008000fa8                delay_ms
  .text.TIM3_IRQHandler
-                0x0000000008000dc8       0x28 build/tim.o
-                0x0000000008000dc8                TIM3_IRQHandler
+                0x0000000008000fd0       0x28 build/tim.o
+                0x0000000008000fd0                TIM3_IRQHandler
  .text.delay_us
-                0x0000000008000df0       0x30 build/tim.o
-                0x0000000008000df0                delay_us
+                0x0000000008000ff8       0x30 build/tim.o
+                0x0000000008000ff8                delay_us
  .text.LL_TIM_Init
-                0x0000000008000e20       0x70 build/stm32f1xx_ll_tim.o
-                0x0000000008000e20                LL_TIM_Init
+                0x0000000008001028       0x70 build/stm32f1xx_ll_tim.o
+                0x0000000008001028                LL_TIM_Init
+ .text.MX_USART1_UART_Init
+                0x0000000008001098       0xb8 build/usart.o
+                0x0000000008001098                MX_USART1_UART_Init
+ .text.DBG_PutString
+                0x0000000008001150       0x20 build/usart.o
+                0x0000000008001150                DBG_PutString
+ .text.LL_USART_Init
+                0x0000000008001170       0xcc build/stm32f1xx_ll_usart.o
+                0x0000000008001170                LL_USART_Init
  .text.Reset_Handler
-                0x0000000008000e90       0x48 build/startup_stm32f103xb.o
-                0x0000000008000e90                Reset_Handler
+                0x000000000800123c       0x48 build/startup_stm32f103xb.o
+                0x000000000800123c                Reset_Handler
  .text.Default_Handler
-                0x0000000008000ed8        0x2 build/startup_stm32f103xb.o
-                0x0000000008000ed8                RTC_Alarm_IRQHandler
-                0x0000000008000ed8                EXTI2_IRQHandler
-                0x0000000008000ed8                TIM1_CC_IRQHandler
-                0x0000000008000ed8                PVD_IRQHandler
-                0x0000000008000ed8                EXTI3_IRQHandler
-                0x0000000008000ed8                EXTI0_IRQHandler
-                0x0000000008000ed8                I2C2_EV_IRQHandler
-                0x0000000008000ed8                ADC1_2_IRQHandler
-                0x0000000008000ed8                SPI1_IRQHandler
-                0x0000000008000ed8                TAMPER_IRQHandler
-                0x0000000008000ed8                DMA1_Channel4_IRQHandler
-                0x0000000008000ed8                USART3_IRQHandler
-                0x0000000008000ed8                RTC_IRQHandler
-                0x0000000008000ed8                DMA1_Channel7_IRQHandler
-                0x0000000008000ed8                CAN1_RX1_IRQHandler
-                0x0000000008000ed8                TIM4_IRQHandler
-                0x0000000008000ed8                I2C1_EV_IRQHandler
-                0x0000000008000ed8                DMA1_Channel6_IRQHandler
-                0x0000000008000ed8                RCC_IRQHandler
-                0x0000000008000ed8                TIM1_TRG_COM_IRQHandler
-                0x0000000008000ed8                DMA1_Channel1_IRQHandler
-                0x0000000008000ed8                Default_Handler
-                0x0000000008000ed8                EXTI15_10_IRQHandler
-                0x0000000008000ed8                EXTI9_5_IRQHandler
-                0x0000000008000ed8                SPI2_IRQHandler
-                0x0000000008000ed8                DMA1_Channel5_IRQHandler
-                0x0000000008000ed8                EXTI4_IRQHandler
-                0x0000000008000ed8                USB_LP_CAN1_RX0_IRQHandler
-                0x0000000008000ed8                USB_HP_CAN1_TX_IRQHandler
-                0x0000000008000ed8                DMA1_Channel3_IRQHandler
-                0x0000000008000ed8                TIM1_UP_IRQHandler
-                0x0000000008000ed8                WWDG_IRQHandler
-                0x0000000008000ed8                TIM2_IRQHandler
-                0x0000000008000ed8                TIM1_BRK_IRQHandler
-                0x0000000008000ed8                EXTI1_IRQHandler
-                0x0000000008000ed8                USART2_IRQHandler
-                0x0000000008000ed8                I2C2_ER_IRQHandler
-                0x0000000008000ed8                DMA1_Channel2_IRQHandler
-                0x0000000008000ed8                CAN1_SCE_IRQHandler
-                0x0000000008000ed8                FLASH_IRQHandler
-                0x0000000008000ed8                USART1_IRQHandler
-                0x0000000008000ed8                I2C1_ER_IRQHandler
-                0x0000000008000ed8                USBWakeUp_IRQHandler
- *fill*         0x0000000008000eda        0x2 
- .text.__errno  0x0000000008000edc        0xc /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
-                0x0000000008000edc                __errno
+                0x0000000008001284        0x2 build/startup_stm32f103xb.o
+                0x0000000008001284                RTC_Alarm_IRQHandler
+                0x0000000008001284                EXTI2_IRQHandler
+                0x0000000008001284                TIM1_CC_IRQHandler
+                0x0000000008001284                PVD_IRQHandler
+                0x0000000008001284                EXTI3_IRQHandler
+                0x0000000008001284                EXTI0_IRQHandler
+                0x0000000008001284                I2C2_EV_IRQHandler
+                0x0000000008001284                ADC1_2_IRQHandler
+                0x0000000008001284                SPI1_IRQHandler
+                0x0000000008001284                TAMPER_IRQHandler
+                0x0000000008001284                DMA1_Channel4_IRQHandler
+                0x0000000008001284                USART3_IRQHandler
+                0x0000000008001284                RTC_IRQHandler
+                0x0000000008001284                DMA1_Channel7_IRQHandler
+                0x0000000008001284                CAN1_RX1_IRQHandler
+                0x0000000008001284                TIM4_IRQHandler
+                0x0000000008001284                I2C1_EV_IRQHandler
+                0x0000000008001284                DMA1_Channel6_IRQHandler
+                0x0000000008001284                RCC_IRQHandler
+                0x0000000008001284                TIM1_TRG_COM_IRQHandler
+                0x0000000008001284                DMA1_Channel1_IRQHandler
+                0x0000000008001284                Default_Handler
+                0x0000000008001284                EXTI15_10_IRQHandler
+                0x0000000008001284                EXTI9_5_IRQHandler
+                0x0000000008001284                SPI2_IRQHandler
+                0x0000000008001284                DMA1_Channel5_IRQHandler
+                0x0000000008001284                EXTI4_IRQHandler
+                0x0000000008001284                USB_LP_CAN1_RX0_IRQHandler
+                0x0000000008001284                USB_HP_CAN1_TX_IRQHandler
+                0x0000000008001284                DMA1_Channel3_IRQHandler
+                0x0000000008001284                TIM1_UP_IRQHandler
+                0x0000000008001284                WWDG_IRQHandler
+                0x0000000008001284                TIM2_IRQHandler
+                0x0000000008001284                TIM1_BRK_IRQHandler
+                0x0000000008001284                EXTI1_IRQHandler
+                0x0000000008001284                USART2_IRQHandler
+                0x0000000008001284                I2C2_ER_IRQHandler
+                0x0000000008001284                DMA1_Channel2_IRQHandler
+                0x0000000008001284                CAN1_SCE_IRQHandler
+                0x0000000008001284                FLASH_IRQHandler
+                0x0000000008001284                USART1_IRQHandler
+                0x0000000008001284                I2C1_ER_IRQHandler
+                0x0000000008001284                USBWakeUp_IRQHandler
+ *fill*         0x0000000008001286        0x2 
+ .text.__errno  0x0000000008001288        0xc /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x0000000008001288                __errno
  .text.__libc_init_array
-                0x0000000008000ee8       0x48 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
-                0x0000000008000ee8                __libc_init_array
- .text.memset   0x0000000008000f30       0x10 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
-                0x0000000008000f30                memset
+                0x0000000008001294       0x48 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                0x0000000008001294                __libc_init_array
+ .text.memset   0x00000000080012dc       0x10 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x00000000080012dc                memset
  .text.snprintf
-                0x0000000008000f40       0x68 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
-                0x0000000008000f40                snprintf
-                0x0000000008000f40                sniprintf
+                0x00000000080012ec       0x68 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
+                0x00000000080012ec                snprintf
+                0x00000000080012ec                sniprintf
+ .text.sprintf  0x0000000008001354       0x40 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
+                0x0000000008001354                sprintf
+                0x0000000008001354                siprintf
  .text.__ssputs_r
-                0x0000000008000fa8       0xb6 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008000fa8                __ssputs_r
- *fill*         0x000000000800105e        0x2 
+                0x0000000008001394       0xb6 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008001394                __ssputs_r
+ *fill*         0x000000000800144a        0x2 
  .text._svfprintf_r
-                0x0000000008001060      0x200 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008001060                _svfprintf_r
-                0x0000000008001060                _svfiprintf_r
+                0x000000000800144c      0x200 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800144c                _svfprintf_r
+                0x000000000800144c                _svfiprintf_r
  .text._printf_common
-                0x0000000008001260       0xde /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008001260                _printf_common
- *fill*         0x000000000800133e        0x2 
+                0x000000000800164c       0xde /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800164c                _printf_common
+ *fill*         0x000000000800172a        0x2 
  .text._printf_i
-                0x0000000008001340      0x24c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008001340                _printf_i
- .text.memchr   0x000000000800158c       0x1c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
-                0x000000000800158c                memchr
- .text.memcpy   0x00000000080015a8       0x1c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
-                0x00000000080015a8                memcpy
- .text.memmove  0x00000000080015c4       0x34 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
-                0x00000000080015c4                memmove
- .text._free_r  0x00000000080015f8       0x90 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
-                0x00000000080015f8                _free_r
+                0x000000000800172c      0x24c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800172c                _printf_i
+ .text.memchr   0x0000000008001978       0x1c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000008001978                memchr
+ .text.memcpy   0x0000000008001994       0x1c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008001994                memcpy
+ .text.memmove  0x00000000080019b0       0x34 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
+                0x00000000080019b0                memmove
+ .text._free_r  0x00000000080019e4       0x90 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+                0x00000000080019e4                _free_r
  .text.sbrk_aligned
-                0x0000000008001688       0x40 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008001a74       0x40 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x00000000080016c8       0xe8 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00000000080016c8                _malloc_r
+                0x0000000008001ab4       0xe8 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008001ab4                _malloc_r
  .text._realloc_r
-                0x00000000080017b0       0x5e /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
-                0x00000000080017b0                _realloc_r
- *fill*         0x000000000800180e        0x2 
- .text._sbrk_r  0x0000000008001810       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
-                0x0000000008001810                _sbrk_r
+                0x0000000008001b9c       0x5e /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008001b9c                _realloc_r
+ *fill*         0x0000000008001bfa        0x2 
+ .text._sbrk_r  0x0000000008001bfc       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000008001bfc                _sbrk_r
  .text.__malloc_lock
-                0x0000000008001830        0xc /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x0000000008001830                __malloc_lock
+                0x0000000008001c1c        0xc /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008001c1c                __malloc_lock
  .text.__malloc_unlock
-                0x000000000800183c        0xc /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x000000000800183c                __malloc_unlock
+                0x0000000008001c28        0xc /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008001c28                __malloc_unlock
  .text._malloc_usable_size_r
-                0x0000000008001848       0x10 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
-                0x0000000008001848                _malloc_usable_size_r
+                0x0000000008001c34       0x10 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000008001c34                _malloc_usable_size_r
  .text.__retarget_lock_acquire_recursive
-                0x0000000008001858        0x2 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x0000000008001858                __retarget_lock_acquire_recursive
+                0x0000000008001c44        0x2 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008001c44                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800185a        0x2 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x000000000800185a                __retarget_lock_release_recursive
+                0x0000000008001c46        0x2 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008001c46                __retarget_lock_release_recursive
  *(.glue_7)
- .glue_7        0x000000000800185c        0x0 linker stubs
+ .glue_7        0x0000000008001c48        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800185c        0x0 linker stubs
+ .glue_7t       0x0000000008001c48        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x000000000800185c        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008001c48        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x000000000800185c        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x000000000800185c                _init
- .init          0x0000000008001860        0x8 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0000000008001c48        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008001c48                _init
+ .init          0x0000000008001c4c        0x8 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008001868        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008001868                _fini
- .fini          0x000000000800186c        0x8 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x0000000008001874                . = ALIGN (0x4)
-                0x0000000008001874                _etext = .
+ .fini          0x0000000008001c54        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008001c54                _fini
+ .fini          0x0000000008001c58        0x8 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000008001c60                . = ALIGN (0x4)
+                0x0000000008001c60                _etext = .
 
-.vfp11_veneer   0x0000000008001874        0x0
- .vfp11_veneer  0x0000000008001874        0x0 linker stubs
+.vfp11_veneer   0x0000000008001c60        0x0
+ .vfp11_veneer  0x0000000008001c60        0x0 linker stubs
 
-.v4_bx          0x0000000008001874        0x0
- .v4_bx         0x0000000008001874        0x0 linker stubs
+.v4_bx          0x0000000008001c60        0x0
+ .v4_bx         0x0000000008001c60        0x0 linker stubs
 
-.iplt           0x0000000008001874        0x0
- .iplt          0x0000000008001874        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x0000000008001c60        0x0
+ .iplt          0x0000000008001c60        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x0000000008001874      0xc18
-                0x0000000008001874                . = ALIGN (0x4)
+.rodata         0x0000000008001c60      0xce4
+                0x0000000008001c60                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.main.str1.4
-                0x0000000008001874       0x3d build/main.o
- *fill*         0x00000000080018b1        0x3 
+                0x0000000008001c60       0xf3 build/main.o
+ *fill*         0x0000000008001d53        0x1 
+ .rodata.AHBPrescTable
+                0x0000000008001d54       0x10 build/system_stm32f1xx.o
+                0x0000000008001d54                AHBPrescTable
+ .rodata.APBPrescTable
+                0x0000000008001d64        0x8 build/system_stm32f1xx.o
+                0x0000000008001d64                APBPrescTable
  .rodata.Segoe_UI_Eng_12
-                0x00000000080018b4      0xba4 build/OLED_Fonts.o
-                0x00000000080018b4                Segoe_UI_Eng_12
+                0x0000000008001d6c      0xba4 build/OLED_Fonts.o
+                0x0000000008001d6c                Segoe_UI_Eng_12
  .rodata._svfprintf_r.str1.1
-                0x0000000008002458       0x11 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008002910       0x11 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000008002469       0x22 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800248c                . = ALIGN (0x4)
- *fill*         0x000000000800248b        0x1 
+                0x0000000008002921       0x22 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008002944                . = ALIGN (0x4)
+ *fill*         0x0000000008002943        0x1 
 
-.rel.dyn        0x000000000800248c        0x0
- .rel.iplt      0x000000000800248c        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008002944        0x0
+ .rel.iplt      0x0000000008002944        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000000000800248c        0x0
-                0x000000000800248c                __exidx_start = .
+.ARM            0x0000000008002944        0x0
+                0x0000000008002944                __exidx_start = .
  *(.ARM.exidx*)
-                0x000000000800248c                __exidx_end = .
+                0x0000000008002944                __exidx_end = .
 
-.preinit_array  0x000000000800248c        0x0
-                0x000000000800248c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008002944        0x0
+                0x0000000008002944                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800248c                PROVIDE (__preinit_array_end = .)
+                0x0000000008002944                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000000000800248c        0x4
-                0x000000000800248c                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008002944        0x4
+                0x0000000008002944                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800248c        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000008002490                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008002944        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008002948                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008002490        0x4
+.fini_array     0x0000000008002948        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008002490        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0000000008002948        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008002494                _sidata = LOADADDR (.data)
+                0x000000000800294c                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x6c load address 0x0000000008002494
+.data           0x0000000020000000       0x6c load address 0x000000000800294c
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -874,69 +894,77 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
                 0x000000002000006c                . = ALIGN (0x4)
                 0x000000002000006c                _edata = .
 
-.igot.plt       0x000000002000006c        0x0 load address 0x0000000008002500
+.igot.plt       0x000000002000006c        0x0 load address 0x00000000080029b8
  .igot.plt      0x000000002000006c        0x0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x000000002000006c                . = ALIGN (0x4)
 
-.bss            0x000000002000006c      0x464 load address 0x0000000008002500
+.bss            0x000000002000006c      0x49c load address 0x00000000080029b8
                 0x000000002000006c                _sbss = .
                 0x000000002000006c                __bss_start__ = _sbss
  *(.bss)
  .bss           0x000000002000006c       0x1c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
+ .bss.cnt_timeout
+                0x0000000020000088        0x1 build/main.o
+                0x0000000020000088                cnt_timeout
+ *fill*         0x0000000020000089        0x3 
  .bss.enc_count
-                0x0000000020000088        0x4 build/main.o
-                0x0000000020000088                enc_count
- .bss.flag_dir  0x000000002000008c        0x1 build/main.o
-                0x000000002000008c                flag_dir
+                0x000000002000008c        0x4 build/main.o
+                0x000000002000008c                enc_count
+ .bss.flag_dir  0x0000000020000090        0x1 build/main.o
+                0x0000000020000090                flag_dir
  .bss.flag_end_delay
-                0x000000002000008d        0x1 build/main.o
-                0x000000002000008d                flag_end_delay
- .bss.flag_rev  0x000000002000008e        0x1 build/main.o
-                0x000000002000008e                flag_rev
- *fill*         0x000000002000008f        0x1 
- .bss.lcd_buf   0x0000000020000090       0x19 build/main.o
-                0x0000000020000090                lcd_buf
+                0x0000000020000091        0x1 build/main.o
+                0x0000000020000091                flag_end_delay
+ .bss.flag_rev  0x0000000020000092        0x1 build/main.o
+                0x0000000020000092                flag_rev
+ *fill*         0x0000000020000093        0x1 
+ .bss.lcd_buf   0x0000000020000094       0x19 build/main.o
+                0x0000000020000094                lcd_buf
  .bss.state_machine
-                0x00000000200000a9        0x1 build/main.o
-                0x00000000200000a9                state_machine
- .bss.val_new   0x00000000200000aa        0x1 build/main.o
-                0x00000000200000aa                val_new
- .bss.val_old   0x00000000200000ab        0x1 build/main.o
-                0x00000000200000ab                val_old
+                0x00000000200000ad        0x1 build/main.o
+                0x00000000200000ad                state_machine
+ .bss.val_new   0x00000000200000ae        0x1 build/main.o
+                0x00000000200000ae                val_new
+ .bss.val_old   0x00000000200000af        0x1 build/main.o
+                0x00000000200000af                val_old
  .bss.__sbrk_heap_end
-                0x00000000200000ac        0x4 build/sysmem.o
+                0x00000000200000b0        0x4 build/sysmem.o
  .bss.oled_buffer
-                0x00000000200000b0      0x400 build/OLED.o
- .bss.Font      0x00000000200004b0       0x10 build/OLED_Fonts.o
-                0x00000000200004b0                Font
+                0x00000000200000b4      0x400 build/OLED.o
+ .bss.Font      0x00000000200004b4       0x10 build/OLED_Fonts.o
+                0x00000000200004b4                Font
+ .bss.DBG_buffer
+                0x00000000200004c4       0x32 build/usart.o
+                0x00000000200004c4                DBG_buffer
+ *fill*         0x00000000200004f6        0x2 
  .bss.__malloc_free_list
-                0x00000000200004c0        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00000000200004c0                __malloc_free_list
+                0x00000000200004f8        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200004f8                __malloc_free_list
  .bss.__malloc_sbrk_start
-                0x00000000200004c4        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00000000200004c4                __malloc_sbrk_start
- .bss.errno     0x00000000200004c8        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
-                0x00000000200004c8                errno
+                0x00000000200004fc        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200004fc                __malloc_sbrk_start
+ .bss.errno     0x0000000020000500        0x4 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
+                0x0000000020000500                errno
  .bss.__lock___malloc_recursive_mutex
-                0x00000000200004cc        0x1 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x00000000200004cc                __lock___malloc_recursive_mutex
+                0x0000000020000504        0x1 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000020000504                __lock___malloc_recursive_mutex
  *(COMMON)
-                0x00000000200004d0                . = ALIGN (0x4)
- *fill*         0x00000000200004cd        0x3 
-                0x00000000200004d0                _ebss = .
-                0x00000000200004d0                __bss_end__ = _ebss
+                0x0000000020000508                . = ALIGN (0x4)
+ *fill*         0x0000000020000505        0x3 
+                0x0000000020000508                _ebss = .
+                0x0000000020000508                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200004d0      0x600 load address 0x0000000008002500
-                0x00000000200004d0                . = ALIGN (0x8)
+                0x0000000020000508      0x600 load address 0x00000000080029b8
+                0x0000000020000508                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x00000000200004d0                PROVIDE (_end = .)
-                0x00000000200006d0                . = (. + _Min_Heap_Size)
- *fill*         0x00000000200004d0      0x200 
-                0x0000000020000ad0                . = (. + _Min_Stack_Size)
- *fill*         0x00000000200006d0      0x400 
-                0x0000000020000ad0                . = ALIGN (0x8)
+                0x0000000020000508                PROVIDE (_end = .)
+                0x0000000020000708                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000508      0x200 
+                0x0000000020000b08                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000708      0x400 
+                0x0000000020000b08                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -963,113 +991,130 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
  .ARM.attributes
                 0x000000000000012b       0x2d build/stm32f1xx_ll_spi.o
  .ARM.attributes
-                0x0000000000000158       0x2d build/stm32f1xx_ll_utils.o
+                0x0000000000000158       0x2d build/stm32f1xx_ll_rcc.o
  .ARM.attributes
-                0x0000000000000185       0x2d build/system_stm32f1xx.o
+                0x0000000000000185       0x2d build/stm32f1xx_ll_utils.o
  .ARM.attributes
-                0x00000000000001b2       0x2d build/sysmem.o
+                0x00000000000001b2       0x2d build/system_stm32f1xx.o
  .ARM.attributes
-                0x00000000000001df       0x2d build/OLED.o
+                0x00000000000001df       0x2d build/sysmem.o
  .ARM.attributes
-                0x000000000000020c       0x2d build/OLED_Fonts.o
+                0x000000000000020c       0x2d build/OLED.o
  .ARM.attributes
-                0x0000000000000239       0x2d build/tim.o
+                0x0000000000000239       0x2d build/OLED_Fonts.o
  .ARM.attributes
-                0x0000000000000266       0x2d build/stm32f1xx_ll_tim.o
+                0x0000000000000266       0x2d build/tim.o
  .ARM.attributes
-                0x0000000000000293       0x21 build/startup_stm32f103xb.o
+                0x0000000000000293       0x2d build/stm32f1xx_ll_tim.o
  .ARM.attributes
-                0x00000000000002b4       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x00000000000002c0       0x2d build/usart.o
  .ARM.attributes
-                0x00000000000002e1       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x00000000000002ed       0x2d build/stm32f1xx_ll_usart.o
  .ARM.attributes
-                0x000000000000030e       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                0x000000000000031a       0x21 build/startup_stm32f103xb.o
  .ARM.attributes
-                0x000000000000033b       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x000000000000033b       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000368       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
+                0x0000000000000368       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000395       0x17 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strlen.o)
+                0x0000000000000395       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000003ac       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000000003c2       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000003d9       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000003ef       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
  .ARM.attributes
-                0x0000000000000406       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+                0x000000000000041c       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x0000000000000433       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000000000449       0x17 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x0000000000000460       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
+                0x0000000000000460       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x000000000000048d       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+                0x000000000000048d       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000000000004ba       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000000004ba       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x00000000000004e7       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+                0x00000000000004e7       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x0000000000000514       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
+                0x0000000000000514       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000000000000541       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000000000541       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x000000000000056e       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
+                0x000000000000056e       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x000000000000059b       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
+                0x000000000000059b       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
  .ARM.attributes
-                0x00000000000005c8       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x00000000000005c8       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000000000005f5       0x1d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000000000005f5       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000622       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x000000000000064f       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000000000000067c       0x2d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000000000006a9       0x1d /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(build/encoder.elf elf32-littlearm)
 LOAD linker stubs
 LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
 LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
 LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
 
-.debug_info     0x0000000000000000     0x86b7
- .debug_info    0x0000000000000000     0x1435 build/main.o
- .debug_info    0x0000000000001435      0x5ce build/gpio.o
- .debug_info    0x0000000000001a03      0x5a6 build/spi.o
- .debug_info    0x0000000000001fa9      0x1e0 build/stm32f1xx_it.o
- .debug_info    0x0000000000002189      0x8f0 build/stm32f1xx_ll_gpio.o
- .debug_info    0x0000000000002a79      0x53d build/stm32f1xx_ll_spi.o
- .debug_info    0x0000000000002fb6      0xbbb build/stm32f1xx_ll_utils.o
- .debug_info    0x0000000000003b71      0x267 build/system_stm32f1xx.o
- .debug_info    0x0000000000003dd8      0x185 build/sysmem.o
- .debug_info    0x0000000000003f5d     0x20c6 build/OLED.o
- .debug_info    0x0000000000006023      0x306 build/OLED_Fonts.o
- .debug_info    0x0000000000006329     0x1044 build/tim.o
- .debug_info    0x000000000000736d     0x1328 build/stm32f1xx_ll_tim.o
- .debug_info    0x0000000000008695       0x22 build/startup_stm32f103xb.o
+.debug_info     0x0000000000000000     0x9e98
+ .debug_info    0x0000000000000000     0x152e build/main.o
+ .debug_info    0x000000000000152e      0x5ce build/gpio.o
+ .debug_info    0x0000000000001afc      0x5a6 build/spi.o
+ .debug_info    0x00000000000020a2      0x1e0 build/stm32f1xx_it.o
+ .debug_info    0x0000000000002282      0x8f0 build/stm32f1xx_ll_gpio.o
+ .debug_info    0x0000000000002b72      0x53d build/stm32f1xx_ll_spi.o
+ .debug_info    0x00000000000030af      0x7da build/stm32f1xx_ll_rcc.o
+ .debug_info    0x0000000000003889      0xbbb build/stm32f1xx_ll_utils.o
+ .debug_info    0x0000000000004444      0x267 build/system_stm32f1xx.o
+ .debug_info    0x00000000000046ab      0x185 build/sysmem.o
+ .debug_info    0x0000000000004830     0x20c6 build/OLED.o
+ .debug_info    0x00000000000068f6      0x306 build/OLED_Fonts.o
+ .debug_info    0x0000000000006bfc     0x1044 build/tim.o
+ .debug_info    0x0000000000007c40     0x1328 build/stm32f1xx_ll_tim.o
+ .debug_info    0x0000000000008f68      0x6ec build/usart.o
+ .debug_info    0x0000000000009654      0x822 build/stm32f1xx_ll_usart.o
+ .debug_info    0x0000000000009e76       0x22 build/startup_stm32f103xb.o
 
-.debug_abbrev   0x0000000000000000     0x1ac5
- .debug_abbrev  0x0000000000000000      0x32b build/main.o
- .debug_abbrev  0x000000000000032b      0x1f2 build/gpio.o
- .debug_abbrev  0x000000000000051d      0x1bb build/spi.o
- .debug_abbrev  0x00000000000006d8       0x7f build/stm32f1xx_it.o
- .debug_abbrev  0x0000000000000757      0x26a build/stm32f1xx_ll_gpio.o
- .debug_abbrev  0x00000000000009c1      0x1ec build/stm32f1xx_ll_spi.o
- .debug_abbrev  0x0000000000000bad      0x311 build/stm32f1xx_ll_utils.o
- .debug_abbrev  0x0000000000000ebe      0x140 build/system_stm32f1xx.o
- .debug_abbrev  0x0000000000000ffe       0xea build/sysmem.o
- .debug_abbrev  0x00000000000010e8      0x38f build/OLED.o
- .debug_abbrev  0x0000000000001477      0x10d build/OLED_Fonts.o
- .debug_abbrev  0x0000000000001584      0x26f build/tim.o
- .debug_abbrev  0x00000000000017f3      0x2c0 build/stm32f1xx_ll_tim.o
- .debug_abbrev  0x0000000000001ab3       0x12 build/startup_stm32f103xb.o
+.debug_abbrev   0x0000000000000000     0x22ca
+ .debug_abbrev  0x0000000000000000      0x346 build/main.o
+ .debug_abbrev  0x0000000000000346      0x1f2 build/gpio.o
+ .debug_abbrev  0x0000000000000538      0x1bb build/spi.o
+ .debug_abbrev  0x00000000000006f3       0x7f build/stm32f1xx_it.o
+ .debug_abbrev  0x0000000000000772      0x26a build/stm32f1xx_ll_gpio.o
+ .debug_abbrev  0x00000000000009dc      0x1ec build/stm32f1xx_ll_spi.o
+ .debug_abbrev  0x0000000000000bc8      0x2d3 build/stm32f1xx_ll_rcc.o
+ .debug_abbrev  0x0000000000000e9b      0x311 build/stm32f1xx_ll_utils.o
+ .debug_abbrev  0x00000000000011ac      0x140 build/system_stm32f1xx.o
+ .debug_abbrev  0x00000000000012ec       0xea build/sysmem.o
+ .debug_abbrev  0x00000000000013d6      0x38f build/OLED.o
+ .debug_abbrev  0x0000000000001765      0x10d build/OLED_Fonts.o
+ .debug_abbrev  0x0000000000001872      0x26f build/tim.o
+ .debug_abbrev  0x0000000000001ae1      0x2c0 build/stm32f1xx_ll_tim.o
+ .debug_abbrev  0x0000000000001da1      0x266 build/usart.o
+ .debug_abbrev  0x0000000000002007      0x2b1 build/stm32f1xx_ll_usart.o
+ .debug_abbrev  0x00000000000022b8       0x12 build/startup_stm32f103xb.o
 
-.debug_loc      0x0000000000000000     0x4c27
- .debug_loc     0x0000000000000000      0x3f3 build/main.o
- .debug_loc     0x00000000000003f3      0x188 build/gpio.o
- .debug_loc     0x000000000000057b       0x81 build/spi.o
- .debug_loc     0x00000000000005fc      0x509 build/stm32f1xx_ll_gpio.o
- .debug_loc     0x0000000000000b05      0x254 build/stm32f1xx_ll_spi.o
- .debug_loc     0x0000000000000d59      0x6ed build/stm32f1xx_ll_utils.o
- .debug_loc     0x0000000000001446       0xff build/system_stm32f1xx.o
- .debug_loc     0x0000000000001545       0x84 build/sysmem.o
- .debug_loc     0x00000000000015c9     0x1f41 build/OLED.o
- .debug_loc     0x000000000000350a      0x427 build/tim.o
- .debug_loc     0x0000000000003931     0x12f6 build/stm32f1xx_ll_tim.o
+.debug_loc      0x0000000000000000     0x54c0
+ .debug_loc     0x0000000000000000      0x2fe build/main.o
+ .debug_loc     0x00000000000002fe      0x188 build/gpio.o
+ .debug_loc     0x0000000000000486       0x81 build/spi.o
+ .debug_loc     0x0000000000000507      0x509 build/stm32f1xx_ll_gpio.o
+ .debug_loc     0x0000000000000a10      0x254 build/stm32f1xx_ll_spi.o
+ .debug_loc     0x0000000000000c64      0x353 build/stm32f1xx_ll_rcc.o
+ .debug_loc     0x0000000000000fb7      0x6ed build/stm32f1xx_ll_utils.o
+ .debug_loc     0x00000000000016a4       0xff build/system_stm32f1xx.o
+ .debug_loc     0x00000000000017a3       0x84 build/sysmem.o
+ .debug_loc     0x0000000000001827     0x1f41 build/OLED.o
+ .debug_loc     0x0000000000003768      0x427 build/tim.o
+ .debug_loc     0x0000000000003b8f     0x12f6 build/stm32f1xx_ll_tim.o
+ .debug_loc     0x0000000000004e85      0x137 build/usart.o
+ .debug_loc     0x0000000000004fbc      0x504 build/stm32f1xx_ll_usart.o
 
-.debug_aranges  0x0000000000000000      0x448
+.debug_aranges  0x0000000000000000      0x510
  .debug_aranges
                 0x0000000000000000       0x38 build/main.o
  .debug_aranges
@@ -1083,82 +1128,100 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
  .debug_aranges
                 0x0000000000000110       0x30 build/stm32f1xx_ll_spi.o
  .debug_aranges
-                0x0000000000000140       0x68 build/stm32f1xx_ll_utils.o
+                0x0000000000000140       0x60 build/stm32f1xx_ll_rcc.o
  .debug_aranges
-                0x00000000000001a8       0x28 build/system_stm32f1xx.o
+                0x00000000000001a0       0x68 build/stm32f1xx_ll_utils.o
  .debug_aranges
-                0x00000000000001d0       0x20 build/sysmem.o
+                0x0000000000000208       0x28 build/system_stm32f1xx.o
  .debug_aranges
-                0x00000000000001f0      0x110 build/OLED.o
+                0x0000000000000230       0x20 build/sysmem.o
  .debug_aranges
-                0x0000000000000300       0x20 build/OLED_Fonts.o
+                0x0000000000000250      0x110 build/OLED.o
  .debug_aranges
-                0x0000000000000320       0x40 build/tim.o
+                0x0000000000000360       0x20 build/OLED_Fonts.o
  .debug_aranges
-                0x0000000000000360       0xc0 build/stm32f1xx_ll_tim.o
+                0x0000000000000380       0x40 build/tim.o
  .debug_aranges
-                0x0000000000000420       0x28 build/startup_stm32f103xb.o
+                0x00000000000003c0       0xc0 build/stm32f1xx_ll_tim.o
+ .debug_aranges
+                0x0000000000000480       0x28 build/usart.o
+ .debug_aranges
+                0x00000000000004a8       0x40 build/stm32f1xx_ll_usart.o
+ .debug_aranges
+                0x00000000000004e8       0x28 build/startup_stm32f103xb.o
 
-.debug_ranges   0x0000000000000000      0x580
- .debug_ranges  0x0000000000000000       0x28 build/main.o
- .debug_ranges  0x0000000000000028       0x18 build/gpio.o
- .debug_ranges  0x0000000000000040       0x10 build/spi.o
- .debug_ranges  0x0000000000000050       0x50 build/stm32f1xx_it.o
- .debug_ranges  0x00000000000000a0       0x98 build/stm32f1xx_ll_gpio.o
- .debug_ranges  0x0000000000000138       0x38 build/stm32f1xx_ll_spi.o
- .debug_ranges  0x0000000000000170       0x58 build/stm32f1xx_ll_utils.o
- .debug_ranges  0x00000000000001c8       0x18 build/system_stm32f1xx.o
- .debug_ranges  0x00000000000001e0       0x10 build/sysmem.o
- .debug_ranges  0x00000000000001f0      0x220 build/OLED.o
- .debug_ranges  0x0000000000000410       0x10 build/OLED_Fonts.o
- .debug_ranges  0x0000000000000420       0x30 build/tim.o
- .debug_ranges  0x0000000000000450      0x110 build/stm32f1xx_ll_tim.o
- .debug_ranges  0x0000000000000560       0x20 build/startup_stm32f103xb.o
+.debug_ranges   0x0000000000000000      0x6c0
+ .debug_ranges  0x0000000000000000       0x58 build/main.o
+ .debug_ranges  0x0000000000000058       0x18 build/gpio.o
+ .debug_ranges  0x0000000000000070       0x10 build/spi.o
+ .debug_ranges  0x0000000000000080       0x50 build/stm32f1xx_it.o
+ .debug_ranges  0x00000000000000d0       0x98 build/stm32f1xx_ll_gpio.o
+ .debug_ranges  0x0000000000000168       0x38 build/stm32f1xx_ll_spi.o
+ .debug_ranges  0x00000000000001a0       0x50 build/stm32f1xx_ll_rcc.o
+ .debug_ranges  0x00000000000001f0       0x58 build/stm32f1xx_ll_utils.o
+ .debug_ranges  0x0000000000000248       0x18 build/system_stm32f1xx.o
+ .debug_ranges  0x0000000000000260       0x10 build/sysmem.o
+ .debug_ranges  0x0000000000000270      0x220 build/OLED.o
+ .debug_ranges  0x0000000000000490       0x10 build/OLED_Fonts.o
+ .debug_ranges  0x00000000000004a0       0x30 build/tim.o
+ .debug_ranges  0x00000000000004d0      0x110 build/stm32f1xx_ll_tim.o
+ .debug_ranges  0x00000000000005e0       0x18 build/usart.o
+ .debug_ranges  0x00000000000005f8       0xa8 build/stm32f1xx_ll_usart.o
+ .debug_ranges  0x00000000000006a0       0x20 build/startup_stm32f103xb.o
 
-.debug_line     0x0000000000000000     0x4925
- .debug_line    0x0000000000000000      0x8ae build/main.o
- .debug_line    0x00000000000008ae      0x36e build/gpio.o
- .debug_line    0x0000000000000c1c      0x2cb build/spi.o
- .debug_line    0x0000000000000ee7      0x269 build/stm32f1xx_it.o
- .debug_line    0x0000000000001150      0x59f build/stm32f1xx_ll_gpio.o
- .debug_line    0x00000000000016ef      0x35d build/stm32f1xx_ll_spi.o
- .debug_line    0x0000000000001a4c      0x765 build/stm32f1xx_ll_utils.o
- .debug_line    0x00000000000021b1      0x248 build/system_stm32f1xx.o
- .debug_line    0x00000000000023f9      0x1ef build/sysmem.o
- .debug_line    0x00000000000025e8     0x1179 build/OLED.o
- .debug_line    0x0000000000003761      0x16f build/OLED_Fonts.o
- .debug_line    0x00000000000038d0      0x528 build/tim.o
- .debug_line    0x0000000000003df8      0xab9 build/stm32f1xx_ll_tim.o
- .debug_line    0x00000000000048b1       0x74 build/startup_stm32f103xb.o
+.debug_line     0x0000000000000000     0x578b
+ .debug_line    0x0000000000000000      0x91c build/main.o
+ .debug_line    0x000000000000091c      0x36e build/gpio.o
+ .debug_line    0x0000000000000c8a      0x2cb build/spi.o
+ .debug_line    0x0000000000000f55      0x269 build/stm32f1xx_it.o
+ .debug_line    0x00000000000011be      0x59f build/stm32f1xx_ll_gpio.o
+ .debug_line    0x000000000000175d      0x35d build/stm32f1xx_ll_spi.o
+ .debug_line    0x0000000000001aba      0x599 build/stm32f1xx_ll_rcc.o
+ .debug_line    0x0000000000002053      0x765 build/stm32f1xx_ll_utils.o
+ .debug_line    0x00000000000027b8      0x248 build/system_stm32f1xx.o
+ .debug_line    0x0000000000002a00      0x1ef build/sysmem.o
+ .debug_line    0x0000000000002bef     0x1179 build/OLED.o
+ .debug_line    0x0000000000003d68      0x16f build/OLED_Fonts.o
+ .debug_line    0x0000000000003ed7      0x528 build/tim.o
+ .debug_line    0x00000000000043ff      0xab9 build/stm32f1xx_ll_tim.o
+ .debug_line    0x0000000000004eb8      0x36e build/usart.o
+ .debug_line    0x0000000000005226      0x4f1 build/stm32f1xx_ll_usart.o
+ .debug_line    0x0000000000005717       0x74 build/startup_stm32f103xb.o
 
-.debug_str      0x0000000000000000     0x1c6a
- .debug_str     0x0000000000000000      0xa16 build/main.o
-                                        0xa9f (size before relaxing)
- .debug_str     0x0000000000000a16       0x5c build/gpio.o
+.debug_str      0x0000000000000000     0x21e2
+ .debug_str     0x0000000000000000      0xad6 build/main.o
+                                        0xb5c (size before relaxing)
+ .debug_str     0x0000000000000ad6       0x5c build/gpio.o
                                         0x304 (size before relaxing)
- .debug_str     0x0000000000000a72       0xe7 build/spi.o
+ .debug_str     0x0000000000000b32       0xde build/spi.o
                                         0x380 (size before relaxing)
- .debug_str     0x0000000000000b59       0xa8 build/stm32f1xx_it.o
+ .debug_str     0x0000000000000c10       0xa8 build/stm32f1xx_it.o
                                         0x24f (size before relaxing)
- .debug_str     0x0000000000000c01      0x12a build/stm32f1xx_ll_gpio.o
+ .debug_str     0x0000000000000cb8      0x12a build/stm32f1xx_ll_gpio.o
                                         0x33b (size before relaxing)
- .debug_str     0x0000000000000d2b       0xaf build/stm32f1xx_ll_spi.o
+ .debug_str     0x0000000000000de2       0xba build/stm32f1xx_ll_spi.o
                                         0x364 (size before relaxing)
- .debug_str     0x0000000000000dda      0x2b8 build/stm32f1xx_ll_utils.o
+ .debug_str     0x0000000000000e9c      0x2f5 build/stm32f1xx_ll_rcc.o
+                                        0x515 (size before relaxing)
+ .debug_str     0x0000000000001191      0x24e build/stm32f1xx_ll_utils.o
                                         0x60c (size before relaxing)
- .debug_str     0x0000000000001092       0x63 build/system_stm32f1xx.o
+ .debug_str     0x00000000000013df       0x45 build/system_stm32f1xx.o
                                         0x21b (size before relaxing)
- .debug_str     0x00000000000010f5       0x7a build/sysmem.o
+ .debug_str     0x0000000000001424       0x7a build/sysmem.o
                                         0x1eb (size before relaxing)
- .debug_str     0x000000000000116f      0x3bb build/OLED.o
+ .debug_str     0x000000000000149e      0x3b3 build/OLED.o
                                         0x67d (size before relaxing)
- .debug_str     0x000000000000152a       0x74 build/OLED_Fonts.o
+ .debug_str     0x0000000000001851       0x74 build/OLED_Fonts.o
                                         0x244 (size before relaxing)
- .debug_str     0x000000000000159e      0x1e3 build/tim.o
+ .debug_str     0x00000000000018c5      0x1e3 build/tim.o
                                         0x87f (size before relaxing)
- .debug_str     0x0000000000001781      0x4c5 build/stm32f1xx_ll_tim.o
+ .debug_str     0x0000000000001aa8      0x4c5 build/stm32f1xx_ll_tim.o
                                         0x832 (size before relaxing)
- .debug_str     0x0000000000001c46       0x24 build/startup_stm32f103xb.o
+ .debug_str     0x0000000000001f6d       0xe9 build/usart.o
+                                        0x3d1 (size before relaxing)
+ .debug_str     0x0000000000002056      0x168 build/stm32f1xx_ll_usart.o
+                                        0x4be (size before relaxing)
+ .debug_str     0x00000000000021be       0x24 build/startup_stm32f103xb.o
                                          0x46 (size before relaxing)
 
 .comment        0x0000000000000000       0x49
@@ -1169,6 +1232,7 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
  .comment       0x0000000000000049       0x4a build/stm32f1xx_it.o
  .comment       0x0000000000000049       0x4a build/stm32f1xx_ll_gpio.o
  .comment       0x0000000000000049       0x4a build/stm32f1xx_ll_spi.o
+ .comment       0x0000000000000049       0x4a build/stm32f1xx_ll_rcc.o
  .comment       0x0000000000000049       0x4a build/stm32f1xx_ll_utils.o
  .comment       0x0000000000000049       0x4a build/system_stm32f1xx.o
  .comment       0x0000000000000049       0x4a build/sysmem.o
@@ -1176,38 +1240,44 @@ LOAD /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../li
  .comment       0x0000000000000049       0x4a build/OLED_Fonts.o
  .comment       0x0000000000000049       0x4a build/tim.o
  .comment       0x0000000000000049       0x4a build/stm32f1xx_ll_tim.o
+ .comment       0x0000000000000049       0x4a build/usart.o
+ .comment       0x0000000000000049       0x4a build/stm32f1xx_ll_usart.o
 
-.debug_frame    0x0000000000000000      0xe88
+.debug_frame    0x0000000000000000     0x1078
  .debug_frame   0x0000000000000000       0x68 build/main.o
  .debug_frame   0x0000000000000068       0x4c build/gpio.o
  .debug_frame   0x00000000000000b4       0x30 build/spi.o
  .debug_frame   0x00000000000000e4       0xa0 build/stm32f1xx_it.o
  .debug_frame   0x0000000000000184       0x6c build/stm32f1xx_ll_gpio.o
  .debug_frame   0x00000000000001f0       0x50 build/stm32f1xx_ll_spi.o
- .debug_frame   0x0000000000000240       0xec build/stm32f1xx_ll_utils.o
- .debug_frame   0x000000000000032c       0x30 build/system_stm32f1xx.o
- .debug_frame   0x000000000000035c       0x28 build/sysmem.o
- .debug_frame   0x0000000000000384      0x3cc build/OLED.o
- .debug_frame   0x0000000000000750       0x20 build/OLED_Fonts.o
- .debug_frame   0x0000000000000770       0x88 build/tim.o
- .debug_frame   0x00000000000007f8      0x1f8 build/stm32f1xx_ll_tim.o
- .debug_frame   0x00000000000009f0       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000000a10       0x2c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000000a3c       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000000a5c       0x7c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
- .debug_frame   0x0000000000000ad8       0x90 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x0000000000000b68       0x60 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000000bc8       0x28 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000000bf0       0x28 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000000c18       0x28 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000000c40       0x38 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000000c78       0x4c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000000cc4       0x3c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000000d00       0x2c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000000d2c       0x30 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000000d5c       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000000000000d7c       0x5c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
- .debug_frame   0x0000000000000dd8       0xb0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000240       0xc4 build/stm32f1xx_ll_rcc.o
+ .debug_frame   0x0000000000000304       0xec build/stm32f1xx_ll_utils.o
+ .debug_frame   0x00000000000003f0       0x30 build/system_stm32f1xx.o
+ .debug_frame   0x0000000000000420       0x28 build/sysmem.o
+ .debug_frame   0x0000000000000448      0x3cc build/OLED.o
+ .debug_frame   0x0000000000000814       0x20 build/OLED_Fonts.o
+ .debug_frame   0x0000000000000834       0x88 build/tim.o
+ .debug_frame   0x00000000000008bc      0x1f8 build/stm32f1xx_ll_tim.o
+ .debug_frame   0x0000000000000ab4       0x40 build/usart.o
+ .debug_frame   0x0000000000000af4       0x80 build/stm32f1xx_ll_usart.o
+ .debug_frame   0x0000000000000b74       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000b94       0x2c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000bc0       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000be0       0x7c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-snprintf.o)
+ .debug_frame   0x0000000000000c5c       0x6c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000000cc8       0x90 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000000d58       0x60 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000000db8       0x28 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000000de0       0x28 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000e08       0x28 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000e30       0x38 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000e68       0x4c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000eb4       0x3c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000000ef0       0x2c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000f1c       0x30 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000f4c       0x20 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000f6c       0x5c /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000fc8       0xb0 /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
 
 Cross Reference Table
 
@@ -1223,6 +1293,10 @@ BigNumbers                                        build/OLED_Fonts.o
 BusFault_Handler                                  build/stm32f1xx_it.o
 CAN1_RX1_IRQHandler                               build/startup_stm32f103xb.o
 CAN1_SCE_IRQHandler                               build/startup_stm32f103xb.o
+DBG_PutString                                     build/usart.o
+                                                  build/main.o
+DBG_buffer                                        build/usart.o
+                                                  build/main.o
 DMA1_Channel1_IRQHandler                          build/startup_stm32f103xb.o
 DMA1_Channel2_IRQHandler                          build/startup_stm32f103xb.o
 DMA1_Channel3_IRQHandler                          build/startup_stm32f103xb.o
@@ -1258,6 +1332,7 @@ LL_EXTI_Init                                      build/stm32f1xx_ll_exti.o
 LL_EXTI_StructInit                                build/stm32f1xx_ll_exti.o
 LL_GPIO_DeInit                                    build/stm32f1xx_ll_gpio.o
 LL_GPIO_Init                                      build/stm32f1xx_ll_gpio.o
+                                                  build/usart.o
                                                   build/spi.o
                                                   build/gpio.o
 LL_GPIO_StructInit                                build/stm32f1xx_ll_gpio.o
@@ -1269,6 +1344,7 @@ LL_PWR_DeInit                                     build/stm32f1xx_ll_pwr.o
 LL_RCC_DeInit                                     build/stm32f1xx_ll_rcc.o
 LL_RCC_GetADCClockFreq                            build/stm32f1xx_ll_rcc.o
 LL_RCC_GetSystemClocksFreq                        build/stm32f1xx_ll_rcc.o
+                                                  build/stm32f1xx_ll_usart.o
 LL_RCC_GetUSBClockFreq                            build/stm32f1xx_ll_rcc.o
 LL_SPI_DeInit                                     build/stm32f1xx_ll_spi.o
 LL_SPI_Init                                       build/stm32f1xx_ll_spi.o
@@ -1291,12 +1367,20 @@ LL_TIM_Init                                       build/stm32f1xx_ll_tim.o
 LL_TIM_OC_Init                                    build/stm32f1xx_ll_tim.o
 LL_TIM_OC_StructInit                              build/stm32f1xx_ll_tim.o
 LL_TIM_StructInit                                 build/stm32f1xx_ll_tim.o
+LL_USART_ClockInit                                build/stm32f1xx_ll_usart.o
+LL_USART_ClockStructInit                          build/stm32f1xx_ll_usart.o
+LL_USART_DeInit                                   build/stm32f1xx_ll_usart.o
+LL_USART_Init                                     build/stm32f1xx_ll_usart.o
+                                                  build/usart.o
+LL_USART_StructInit                               build/stm32f1xx_ll_usart.o
 LL_mDelay                                         build/stm32f1xx_ll_utils.o
 MX_GPIO_Init                                      build/gpio.o
                                                   build/main.o
 MX_SPI1_Init                                      build/spi.o
                                                   build/main.o
 MX_TIM4_Init                                      build/tim.o
+                                                  build/main.o
+MX_USART1_UART_Init                               build/usart.o
                                                   build/main.o
 MemManage_Handler                                 build/stm32f1xx_it.o
 NMI_Handler                                       build/stm32f1xx_it.o
@@ -1509,6 +1593,7 @@ _wait                                             build/syscalls.o
 _write                                            build/syscalls.o
 atexit                                            /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 cleanup_glue                                      /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-reent.o)
+cnt_timeout                                       build/main.o
 delay_ms                                          build/tim.o
                                                   build/main.o
 delay_us                                          build/tim.o
@@ -1553,6 +1638,7 @@ snprintf                                          /home/arashamf/soft/ARM_toolch
 software_init_hook                                /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 sprintf                                           /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sprintf.o)
                                                   build/OLED.o
+                                                  build/main.o
 state_machine                                     build/main.o
 strlen                                            /home/arashamf/soft/ARM_toolchains/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strlen.o)
                                                   build/OLED.o

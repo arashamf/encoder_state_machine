@@ -38,6 +38,7 @@ extern "C" {
 #include "stm32f1xx_ll_dma.h"
 #include "stm32f1xx_ll_spi.h"
 #include "stm32f1xx_ll_tim.h"
+#include "stm32f1xx_ll_usart.h"
 #include "stm32f1xx_ll_gpio.h"
 
 #if defined(USE_FULL_ASSERT)
@@ -100,6 +101,8 @@ void Error_Handler(void);
 /* USER CODE BEGIN Private defines */
 #define ON 												1
 #define OFF 											0
+
+#define __USE_DBG
 
 extern uint8_t flag_end_delay;
 /* USER CODE END Private defines */

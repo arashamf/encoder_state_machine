@@ -14,6 +14,7 @@ build/spi.o: Core/Src/spi.c Core/Inc/spi.h Core/Inc/main.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h \
+ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h
 Core/Inc/spi.h:
 Core/Inc/main.h:
@@ -34,4 +35,5 @@ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h:
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:

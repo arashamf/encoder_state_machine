@@ -14,6 +14,7 @@ build/OLED.o: display/OLED.c display/OLED.h Core/Inc/main.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h \
+ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h \
  display/OLED_Fonts.h display/OLED_Icons.h Core/Inc/gpio.h \
  Core/Inc/main.h Core/Inc/spi.h Core/Inc/tim.h
@@ -36,6 +37,7 @@ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h:
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:
 display/OLED_Fonts.h:
 display/OLED_Icons.h:
